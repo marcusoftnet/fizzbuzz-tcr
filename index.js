@@ -1,3 +1,3 @@
-module.exports.single = (number) => {
-  return '1'
+module.exports.single = (n) => {
+  return n.toString()
 }

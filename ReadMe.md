@@ -52,4 +52,26 @@ Passed and commit
 ## Second test - fail
 Set up the whole test. Pretty sure of myself... failed and reverted.
 No production code changed... Hence I returned a constant of `1`.
+And I even thought that `I didn't change any production code to get this to work... hmmm... this feel strange`
+
 Lost documentation too.
+
+## Second test - second run
+Test:
+
+```javascript
+  it('returns "2" for 2', () => {
+    const result = fizzBuzzer.single(2)
+    assert.equal(result, '2')
+  })
+
+```
+
+Production code:
+```javascript
+module.exports.single = (n) => {
+  return n.toString()
+}
+```
+Feeling before test-run: NERVOUS! Will it run?
+Passed and commit
