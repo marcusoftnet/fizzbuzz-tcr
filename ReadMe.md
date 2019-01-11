@@ -11,4 +11,28 @@ Provoked by [this post](https://medium.com/@kentbeck_7670/test-commit-revert-870
 - pbpaste > .gitignore
 - git init and initial commit
 
-## Setting up commands
+## Setting up commands for TCR
+
+    "commit": "git add -A; timestamp=$(date \"+%c\") && git commit -m \"TCR @ $timestamp\";",
+    "revert": "git reset --hard",
+    "tcr": "npm test && npm run commit || npm run revert"
+
+```javascript
+/* global describe, it */
+const assert = require('chai').assert
+
+describe('Testing', () => {
+  it('should work', () => {
+    assert.isTrue(true)
+  })
+})
+```
+
+## First test
+Feeling before test-run: NERVOUS! Will it run?
+
+Test:
+
+```javascript
+
+```
