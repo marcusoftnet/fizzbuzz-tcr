@@ -4,9 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "lint": "standard",
     "pretest": "standard",
     "test": "mocha -D bdd -R list .",
-    "lint": "standard"
+    "commit": "git add -A; timestamp=$(date \"+%s\") && git commit -m \"Test run at $timestamp\";",
+    "revert": "git reset --hard",
+    "tcr": "npm test && if(npm run commit || npm run revert)"
   },
   "keywords": [],
   "author": "Marcus Hammarberg <marcusoftnet@gmail.com> (http://www.marcusoft.net)",
