@@ -15,7 +15,6 @@ describe('FizzBuzz', () => {
   })
 
   it('returns "2" for 2', () => {
-    const result = fizzBuzzer.single(2)
-    assert.equal(result, '2')
+    assert.equal(fizzBuzzer.single(2), '2')
   })
 })
