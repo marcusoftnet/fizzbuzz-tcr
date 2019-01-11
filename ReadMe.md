@@ -46,15 +46,16 @@ module.exports.single = (number) => {
   return '1'
 }
 ```
-Feeling before test-run: NERVOUS! Will it run?
-Passed and commit
+**Feeling before tcr-command**: NERVOUS! Will it run?
+**Result**: Passed and commit
 
 ## Second test - fail
-Set up the whole test. Pretty sure of myself... failed and reverted.
-No production code changed... Hence I returned a constant of `1`.
-And I even thought that `I didn't change any production code to get this to work... hmmm... this feel strange`
-
-Lost documentation too.
+**Feeling before tcr-command**: Cocky! This will work...
+**Result**: Ah well...
+* Set up the whole test. Pretty sure of myself... failed and reverted.
+* No production code changed... Hence I returned a constant of `1`.
+*And I even thought that `I didn't change any production code to get this to work... hmmm... this feel strange`
+* Lost documentation too.
 
 ## Second test - second run
 Test:
@@ -73,5 +74,6 @@ module.exports.single = (n) => {
   return n.toString()
 }
 ```
-Feeling before test-run: NERVOUS! Will it run?
-Passed and commit
+
+**Feeling before tcr-command**: Careful optimistic
+**Result**: Passed and commit
