@@ -11,8 +11,9 @@ const isBuzz = (n) => n % 5 === 0
 const string = (numbers) => {
   return numbers
     .split(',')
+    .map((n) => n.trim())
     .map((n) => single(n))
-    .join(',')
+    .join(', ')
 }
 
 module.exports = {
