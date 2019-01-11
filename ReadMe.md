@@ -75,5 +75,26 @@ module.exports.single = (n) => {
 }
 ```
 
-**Feeling before tcr-command**: Careful optimistic
-**Result**: Passed and commit
+**Feeling before tcr-command**: Careful optimistic but still held my breath during the run.
+**Result**: Passed and commit.
+
+## Refactor tests
+
+Test:
+
+```javascript
+  it('returns "2" for 2', () => {
+    assert.equal(fizzBuzzer.single(2), '2')
+  })
+
+```
+
+Production code:
+```javascript
+module.exports.single = (n) => {
+  return n.toString()
+}
+```
+
+**Feeling before tcr-command**: Very confident
+**Result**: Passed and commit.

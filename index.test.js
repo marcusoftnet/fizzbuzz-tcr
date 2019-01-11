@@ -10,8 +10,7 @@ describe('Testing', () => {
 
 describe('FizzBuzz', () => {
   it('returns "1" for 1', () => {
-    const result = fizzBuzzer.single(1)
-    assert.equal(result, '1')
+    assert.equal(fizzBuzzer.single(1), '1')
   })
 
   it('returns "2" for 2', () => {
