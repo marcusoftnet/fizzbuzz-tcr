@@ -29,10 +29,22 @@ describe('Testing', () => {
 ```
 
 ## First test
-Feeling before test-run: NERVOUS! Will it run?
-
 Test:
 
 ```javascript
-
+describe('FizzBuzz', () => {
+  it('returns "1" for 1', () => {
+    const result = fizzBuzzer.single(1)
+    assert.equal(result, '1')
+  })
+})
 ```
+
+Production code:
+```javascript
+module.exports.single = (number) => {
+  return '1'
+}
+```
+Feeling before test-run: NERVOUS! Will it run?
+Passed and commit
