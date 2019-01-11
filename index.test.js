@@ -16,4 +16,8 @@ describe('FizzBuzz single', () => {
   it('returns "2" for 2', () => {
     assert.equal(fizzBuzzer.single(2), '2')
   })
+
+  it('returns "Fizz" for 3', () => {
+    assert.equal(fizzBuzzer.single(3), 'Fizz')
+  })
 })
