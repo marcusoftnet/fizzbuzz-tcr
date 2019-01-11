@@ -42,4 +42,8 @@ describe('FizzBuzz single', () => {
   })
 })
 
-describe('FizzBuzz string', () => { })
+describe('FizzBuzz string', () => {
+  it('returns "1" for "1"', () => {
+    assert.equal(fizzBuzzer.string('1'), '1')
+  })
+})
