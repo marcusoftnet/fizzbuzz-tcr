@@ -8,7 +8,7 @@ describe('Testing', () => {
   })
 })
 
-describe('FizzBuzz', () => {
+describe('FizzBuzz single', () => {
   it('returns "1" for 1', () => {
     assert.equal(fizzBuzzer.single(1), '1')
   })
