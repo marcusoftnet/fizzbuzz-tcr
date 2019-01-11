@@ -41,3 +41,5 @@ describe('FizzBuzz single', () => {
     assert.equal(fizzBuzzer.single(15), 'FizzBuzz')
   })
 })
+
+describe('FizzBuzz string', () => { })
