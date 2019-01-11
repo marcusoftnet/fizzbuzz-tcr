@@ -48,3 +48,8 @@ module.exports.single = (number) => {
 ```
 Feeling before test-run: NERVOUS! Will it run?
 Passed and commit
+
+## Second test - fail
+Set up the whole test. Pretty sure of myself... failed and reverted.
+No production code changed... Hence I returned a constant of `1`.
+Lost documentation too.
