@@ -50,4 +50,8 @@ describe('FizzBuzz string', () => {
   it('returns "1, 2" for "1,2"', () => {
     assert.equal(fizzBuzzer.string('1, 2'), '1, 2')
   })
+
+  it('returns "1, 2, Fizz" for "1,2,3"', () => {
+    assert.equal(fizzBuzzer.string('1, 2, 3'), '1, 2, Fizz')
+  })
 })
