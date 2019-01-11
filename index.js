@@ -1,4 +1,5 @@
 module.exports.single = (n) => {
+  if (isFizz(n) && isBuzz(n)) { return 'FizzBuzz' }
   if (isFizz(n)) { return 'Fizz' }
   if (isBuzz(n)) { return 'Buzz' }
   return n.toString()
