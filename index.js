@@ -9,5 +9,8 @@ const isFizz = (n) => n % 3 === 0
 const isBuzz = (n) => n % 5 === 0
 
 module.exports.string = (numbers) => {
-  return '1'
+  return numbers
+    .split(',')
+    .map((n) => n.toString())
+    .join(',')
 }
